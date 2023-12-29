@@ -2,7 +2,7 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, promptopia } from "../assets";
 import SectionWrapper from "../hoc/SectionWrapper";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -52,8 +52,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
-                src={github}
-                alt='source code'
+                src={name!='Promptopia' ? github : promptopia}
+                alt='link'
                 className='w-1/2 h-1/2 object-contain'
               />
             </div>

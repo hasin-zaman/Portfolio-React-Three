@@ -8,21 +8,18 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    firebase,
+    flutter,
+    akodra,
+    eplanet,
     threejs,
+    goalzoneImage,
+    supapayImage,
+    promptopiaImage,
   } from "../assets";
   
   export const navLinks = [
@@ -42,19 +39,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "MERN Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Flutter Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Next.js Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Nest.js Developer",
       icon: creator,
     },
   ];
@@ -81,10 +78,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -101,70 +94,44 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Firebase",
+      icon: firebase,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Flutter",
+      icon: flutter,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Software Engineer Intern",
+      company_name: "Akodra",
+      icon: akodra,
+      iconBg: "#FFFFF7",
+      date: "July 2023 - August 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Gathered requirements for a live project.",
+        "Developed complete backend of project on Nest.js framework.",
+        "Worked on a website on React and an admin portal on Next.",
+        "Did 20% unit testing of backend using Jest",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineer Intern",
+      company_name: "Eplanet Global",
+      icon: eplanet,
+      iconBg: "#FFFFF7",
+      date: "October 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Working on MVVM architecture of a mobile based live application on Flutter.",
+        "Collaborating with cross-functional teams including ui designers, qa testers, and other developers to create high-quality app.",
+        "Developing reusable components and converting Figma designs to screens.",
+        "Ensuring responsive screens, implementing Restful apis, and managing state with Bloc and Cubit state management.",
       ],
     },
   ];
@@ -198,67 +165,71 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Goalzone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A web app for booking grounds, registering players, registering teams, and finding opponent teams.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
+          name: "mongo",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "react",
           color: "pink-text-gradient",
         },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
         {
-          name: "react",
+          name: "node",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "express",
+          color: "green-text-gradient",
+        },
+      ],
+      image: goalzoneImage,
+      source_code_link: "https://github.com/hasin-riki/Goalzone-Web-Application",
+    },
+    {
+      name: "Supapay",
+      description:
+        "A mobile application that provides basic financial services, such as mobile banking and customer support.",
+      tags: [
+        {
+          name: "flutter",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "bloc",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: supapayImage,
+      source_code_link: "https://github.com/hasin-riki/Supapay-Fintech-App",
     },
     {
-      name: "Trip Guide",
+      name: "Promptopia",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A practice project by Javascript Mastery. A CRUD for prompts along with google authentication.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "googleauth",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: promptopiaImage,
+      source_code_link: "https://promptopia-nextjs-hasin-riki.vercel.app/",
     },
   ];
   
