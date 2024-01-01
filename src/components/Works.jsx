@@ -12,15 +12,15 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
         <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I prioritize writing clean, structured and efficient code. Therefore, 
+          continuously adopting good coding practices and ensuring DRY principle is a key 
+          trait to my work. Other than that, I mainly focus on security aspects of the project when implementing, 
+          for example, authorization, authentication, sanitation, and scalability/performance aspects through 
+          implementation of pagination, normalisation etcetera.
         </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-7'>

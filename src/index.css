@@ -13,6 +13,48 @@
   color-scheme: dark;
 }
 
+.limited-text {
+  --max-lines : 7;
+  --line-height: 1.4;
+  max-height: calc(var(--max-lines) * 1em * var(--line-height));
+  line-height: var(--line-height);
+  overflow: hidden;
+  position: relative;
+}
+
+.limited-text:has(+ .expand-text:not(:checked))::before {
+  content: "";
+  position: absolute;
+  height: calc(1.25em * var(--line-height));
+  width: 100%;
+  bottom: 0;
+  pointer-events: none;
+  background: linear-gradient(to bottom, transparent, rgb(9 3 37));
+}
+
+.limited-text:has(+ .expand-text:checked) {
+  max-height: none;
+}
+
+.expand-text {
+  appearance: none;
+  cursor: pointer;
+  font-size: small;
+  color:  #58a6ff;
+}
+
+.expand-text:hover {
+  text-decoration: underline;
+}
+
+.expand-text::before {
+  content: 'Read more.';
+}
+
+.expand-text:checked:before {
+  content: 'Read less.';
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
