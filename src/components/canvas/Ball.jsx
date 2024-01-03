@@ -6,8 +6,8 @@ import CanvasLoader from '../Loader'
 const BallCanvas = ({ icon }) => {
   return (
     <Canvas
-      frameloop='demand'
-      dpr={[1, 2]}
+      frameloop='always'
+      dpr={[0.5, 1]}
       gl={{ preserveDrawingBuffer: true }}
     >
       <Suspense fallback={<CanvasLoader />}> 
@@ -24,7 +24,7 @@ const Ball = (props) => {
   const [decal] = useTexture([props.icon]);
 
   return (
-    <Float speed={1.5} rotationIntensity={1} floatIntensity={2}>
+    <Float speed={0.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]}/>
       <mesh castShadow receiveShadow scale={2.75}>

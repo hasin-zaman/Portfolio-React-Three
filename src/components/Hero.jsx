@@ -15,7 +15,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} text-white mt-2`}>I'm <span className="text-[#915eff]">Hasin.</span> A passionate full-stack software engineer.</p>
         </div>
       </div>
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
       <div className="absolute xs:bottom-10 bottom-32 w-11/12 flex justify-end items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
