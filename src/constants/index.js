@@ -139,6 +139,15 @@ import {
   const testimonials = [
     {
       testimonial:
+        "Hasin consistently demonstrated strong dedication, attention to detail, and a proactive approach to tasks. His commitment to achieving excellence in their work was evident in a project we collaborated on. With a solid work ethic and excellent communication skills, Hasin proved to be a valuable asset to the team. I highly recommend Hasin and am confident in their ability to excel in any professional endeavor. Best wishes for continued success!",
+      name: "Muhammad Abdullah",
+      designation: "Lead SWE",
+      company: "Eplanet Global",
+      image: "https://media.licdn.com/dms/image/C4D03AQFpUdGQeEewrQ/profile-displayphoto-shrink_200_200/0/1648750365651?e=1710374400&v=beta&t=xshfZ7shKNed87W3Ef3cZu9304LYSxp7jsQhUTnncN0",
+      profile: "https://www.linkedin.com/in/mabdullahmahmood"
+    },
+    {
+      testimonial:
         "I highly recommend Hasin Zaman based on their exceptional performance during their internship at EPlanet Global. Hasin Zaman consistently demonstrated strong analytical skills, a quick learning ability, and a proactive approach to tasks. Their positive attitude, teamwork, and adaptability make them a valuable asset to any team. I am confident that Hasin Zaman will excel in their future endeavors.",
       name: "Mubeen Jamal",
       designation: "Lead SWE",
