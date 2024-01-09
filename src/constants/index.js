@@ -154,6 +154,15 @@ import {
       company: "Eplanet Global",
       image: "https://media.licdn.com/dms/image/C4E03AQFKjFoBHYwP9g/profile-displayphoto-shrink_200_200/0/1597867024456?e=1709769600&v=beta&t=nlj3YMG-tUdqDK-dTt8TKWq-bCeMApJdbrB9abWhD9g",
       profile: "https://www.linkedin.com/in/mubeen-jamal"
+    },
+    {
+      testimonial:
+        "Hasin is a person with positive attitude, effective communication, and collaborative spirit which makes him a valuable team member. He approached tasks with enthusiasm and consistently delivered quality work. I believe his commitment to learning and his proactive approach will serve him well in any future endeavors. Wish you good luck and success in your career. :)",
+      name: "Jharna Samtani",
+      designation: "HRBP",
+      company: "Eplanet Global",
+      image: "https://media.licdn.com/dms/image/D4D03AQEiRlvausHfsw/profile-displayphoto-shrink_200_200/0/1703669180189?e=1710374400&v=beta&t=mZmyHpkFQGWCQzYnU3HKKEPZnrlPKy4Pv4NSIeE1cqY",
+      profile: "https://www.linkedin.com/in/jharna-samtani-16b000133"
     }
   ];
   
