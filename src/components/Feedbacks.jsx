@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import SectionWrapper from "../hoc/SectionWrapper";
@@ -26,7 +26,6 @@ const Feedbacks = () => {
 }
 
 const FeedbackCard = ({ index, testimonial, name, designation, company, image, profile }) => (
-
 
   <motion.div
     variants={fadeIn("", "spring", index * 0.5, 0.75)}

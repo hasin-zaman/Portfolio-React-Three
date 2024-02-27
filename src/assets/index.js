@@ -23,6 +23,7 @@ import flutter from "./tech/flutter.png";
 
 import akodra from './company/akodra.jpg';
 import eplanet from './company/eplanet.jpg';
+import northstar from './company/northstar.jpg';
 
 import supapayImage from "./projects/supapay.jpg";
 import goalzoneImage from "./projects/goalzone.png";
@@ -52,6 +53,7 @@ export {
   flutter,
   akodra,
   eplanet,
+  northstar,
   goalzoneImage,
   supapayImage,
   promptopiaImage,

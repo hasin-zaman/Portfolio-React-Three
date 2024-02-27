@@ -32,7 +32,7 @@ const Hero = () => {
         </div>
         <div className={`${isMobile ? 'mt-5' : 'mt-0'}`}>
           <h1 className={`${styles.heroHeadText} text-white`}>Hello World! <br />I'm <span className="text-[#915eff]">Hasin.</span></h1>
-          <p className={`${styles.heroSubText} text-white mt-2`}>A passionate full-stack software engineer. I believe coding can be an art and coders can be artists. ✨✨</p>
+          <p className={`${styles.heroSubText} text-white mt-2`}>A passionate full-stack software engineer. {isMobile ? "I believe coding can be an art and coders can be artists. " : ""} ✨✨</p>
         </div>
       </div>
       <ComputersCanvas />
