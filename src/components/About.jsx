@@ -15,11 +15,10 @@ const About = () => {
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
         I'm a skilled software engineer with experience in Javascript, TypeScript and
-        Dart, and expertise in frameworks like React, Node.js, and Flutter. 
+        Dart, and expertise in frameworks like React, Express, Nest and Flutter. 
         I'm a quick learner. I make it a habit to adopt better coding 
-        practices every day. When developing, I aim to create scalable, secure 
-        and user-friendly solutions that solve real-world problems. 
-        Let's work together to bring your ideas to life!
+        practices often. When developing, I aim to create scalable, secure 
+        and user-friendly solutions that solve real-world problems.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'> 
         {

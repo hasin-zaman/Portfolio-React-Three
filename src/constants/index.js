@@ -110,16 +110,29 @@ import {
   
   const experiences = [
     {
-      title: "Software Engineer Intern",
-      company_name: "Akodra",
-      icon: akodra,
+      title: "Associate Software Engineer",
+      company_name: "Northstar Technologies",
+      icon: northstar,
       iconBg: "#FFFFF7",
-      date: "July 2023 - August 2023",
+      date: "April 2024 - Present",
       points: [
-        "Gathered requirements for a live project.",
-        "Developed complete backend of project on Nest.js framework.",
-        "Worked on a website on React and an admin portal on Next.",
-        "Did 20% unit testing of backend using Jest",
+        "Working on Java based frameworks (Spring, Struts, Hibernate) to implement backend services.",
+        "Implementing UI using JSPs and React",
+        "Finding security vulnerabilities in code and correcting the code implementation",
+        "Penetration testing to test for security vulnerabilities.",
+      ],
+    },
+    {
+      title: "Trainee Software Engineer",
+      company_name: "Northstar Technologies",
+      icon: northstar,
+      iconBg: "#FFFFF7",
+      date: "February 2024 - April 2024",
+      points: [
+        "Working on Java based frameworks (Spring, Struts, Hibernate) to implement backend services.",
+        "Implementing UI using JSPs and React",
+        "Finding security vulnerabilities in code and correcting the code implementation",
+        "Penetration testing to test for security vulnerabilities.",
       ],
     },
     {
@@ -133,19 +146,6 @@ import {
         "Collaborated with cross-functional teams including ui designers, qa testers, and other developers to create high-quality app.",
         "Developed reusable components and converted Figma designs to screens.",
         "Ensured responsive screens, implemented apis, and managed state with Bloc and Cubit state management.",
-      ],
-    },
-    {
-      title: "Trainee Software Engineer - Security",
-      company_name: "Northstar Technologies",
-      icon: northstar,
-      iconBg: "#FFFFF7",
-      date: "February 2024 - Present",
-      points: [
-        "Working on Java based frameworks (Spring, Struts, Hibernate) to implement backend services.",
-        "Implementing UI using JSPs and React",
-        "Finding security vulnerabilities in code and correcting the code implementation",
-        "Penetration testing to test for security vulnerabilities.",
       ],
     },
   ];
