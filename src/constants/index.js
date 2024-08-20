@@ -14,7 +14,6 @@ import {
     git,
     firebase,
     flutter,
-    akodra,
     eplanet,
     northstar,
     threejs,

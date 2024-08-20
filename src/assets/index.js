@@ -21,7 +21,6 @@ import threejs from "./tech/threejs.png";
 import firebase from "./tech/firebase.png";
 import flutter from "./tech/flutter.png";
 
-import akodra from './company/akodra.jpg';
 import eplanet from './company/eplanet.jpg';
 import northstar from './company/northstar.jpg';
 
@@ -51,7 +50,6 @@ export {
   threejs,
   firebase,
   flutter,
-  akodra,
   eplanet,
   northstar,
   goalzoneImage,
