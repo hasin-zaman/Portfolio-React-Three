@@ -24,6 +24,7 @@ import flutter from "./tech/flutter.png";
 import eplanet from './company/eplanet.jpg';
 import northstar from './company/northstar.jpg';
 
+import capstonedImage from "./projects/capstoned.png";
 import supapayImage from "./projects/supapay.jpg";
 import goalzoneImage from "./projects/goalzone.png";
 import promptopiaImage from "./projects/promptopia.png";
@@ -52,6 +53,7 @@ export {
   flutter,
   eplanet,
   northstar,
+  capstonedImage,
   goalzoneImage,
   supapayImage,
   promptopiaImage,

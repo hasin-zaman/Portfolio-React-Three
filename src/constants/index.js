@@ -17,6 +17,7 @@ import {
     eplanet,
     northstar,
     threejs,
+    capstonedImage,
     goalzoneImage,
     supapayImage,
     promptopiaImage,
@@ -181,6 +182,27 @@ import {
   
   const projects = [
     {
+      name: "Capstoned",
+      description:
+        "AI-powered system that streamlines project management with secure access, originality checks, and real-time communication.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "socket.io",
+          color: "green-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: capstonedImage,
+      source_code_link: "https://github.com/TahaMirza50/Capstoned",
+    },
+    {
       name: "Goalzone",
       description:
         "A web app for booking grounds, registering players, registering teams, and finding opponent teams.",
@@ -226,27 +248,27 @@ import {
       image: supapayImage,
       source_code_link: "https://github.com/hasin-riki/Supapay-Fintech-App",
     },
-    {
-      name: "Promptopia",
-      description:
-        "A practice project by Javascript Mastery. A CRUD for prompts along with google authentication.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwindcss",
-          color: "green-text-gradient",
-        },
-        {
-          name: "googleauth",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: promptopiaImage,
-      source_code_link: "https://promptopia-nextjs-hasin-riki.vercel.app/",
-    },
+    // {
+    //   name: "Promptopia",
+    //   description:
+    //     "A practice project by Javascript Mastery. A CRUD for prompts along with google authentication.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwindcss",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "googleauth",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: promptopiaImage,
+    //   source_code_link: "https://promptopia-nextjs-hasin-riki.vercel.app/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
