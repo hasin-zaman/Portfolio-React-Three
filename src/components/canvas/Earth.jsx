@@ -1,4 +1,4 @@
-import React, { Suspense } from "react"
+import React, { Suspense, useState, useEffect } from "react"
 import { Canvas } from "@react-three/fiber"
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei"
 import CanvasLoader from "../Loader"
@@ -22,10 +22,29 @@ const EarthCanvas = () => {
 }
 
 const Earth = () => {
+
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 1280px)");
+
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches)
+    }
+
+    mediaQuery.addEventListener('change', handleMediaQueryChange);
+
+    return () => {
+      mediaQuery.removeEventListener('change', handleMediaQueryChange);
+    }
+  }, [])
+
   const earth = useGLTF('./planet/scene.gltf')
 
   return (
-    <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
+    <primitive object={earth.scene} scale={isMobile ? 3 : 2} position-y={0} rotation-y={0} />
   )
 }
 
