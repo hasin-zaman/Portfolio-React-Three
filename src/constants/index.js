@@ -116,10 +116,10 @@ import {
       iconBg: "#FFFFF7",
       date: "April 2024 - Present",
       points: [
-        "Working on Java based frameworks (Spring, Struts, Hibernate) to implement backend services.",
-        "Implementing UI using JSPs and React",
-        "Finding security vulnerabilities in code and correcting the code implementation",
-        "Penetration testing to test for security vulnerabilities.",
+        "Analyzed application flows and optimized filter effectiveness for comprehensive coverage",
+        "Made adjustments based on logs to ensure application performance remained smooth without breaking",
+        "Created runtime options for enabling/disabling filters and collecting logs for enhanced flexibility and monitoring",
+        "Successfully deployed filters to production, demonstrating effective integration and impact",
       ],
     },
     {
@@ -129,10 +129,9 @@ import {
       iconBg: "#FFFFF7",
       date: "February 2024 - April 2024",
       points: [
-        "Working on Java based frameworks (Spring, Struts, Hibernate) to implement backend services.",
-        "Implementing UI using JSPs and React",
-        "Finding security vulnerabilities in code and correcting the code implementation",
-        "Penetration testing to test for security vulnerabilities.",
+        "Configured OWASP Dependency-Check with Ant, identifying and addressing multiple vulnerable jars",
+        "Conducted pentesting using Burp Suite and addressed OWASP Top 10 vulnerabilities",
+        "Developed 6 high-impact filters for a Spring and Struts-based enterprise app, enhancing security across the entire system",
       ],
     },
     {
@@ -142,10 +141,11 @@ import {
       iconBg: "#FFFFF7",
       date: "October 2023 - February 2024",
       points: [
-        "Worked on MVVM architecture of a mobile based live application on Flutter.",
-        "Collaborated with cross-functional teams including ui designers, qa testers, and other developers to create high-quality app.",
-        "Developed reusable components and converted Figma designs to screens.",
-        "Ensured responsive screens, implemented apis, and managed state with Bloc and Cubit state management.",
+        "Orchestrated the development of a Flutter-based mobile application adhering to the MVVM architecture",
+        "Collaborated seamlessly with QA testers, designers, and developers across teams",
+        "Engineered a suite of reusable components, translating over 20 intricate Figma designs into responsive screens",
+        "Consumed Rest APIs and managed state using Bloc and Cubit, optimizing efficiency",
+        "Strategically implemented Singleton and Factory patterns, streamlining project scalability and maintainability",
       ],
     },
   ];
