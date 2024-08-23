@@ -20,7 +20,6 @@ export default {
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/midnightbg.jpg')",
-        'midnight-gradient': 'linear-gradient(to right, rgba(13, 31, 51, 1), rgba(78, 145, 255, 0))',
       },
     },
   },
