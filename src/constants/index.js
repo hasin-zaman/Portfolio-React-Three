@@ -157,7 +157,7 @@ import {
       name: "Muhammad Abdullah",
       designation: "Lead SWE",
       company: "Eplanet Global",
-      image: "https://media.licdn.com/dms/image/C4D03AQFpUdGQeEewrQ/profile-displayphoto-shrink_200_200/0/1648750365651?e=1710374400&v=beta&t=xshfZ7shKNed87W3Ef3cZu9304LYSxp7jsQhUTnncN0",
+      image: "https://media.licdn.com/dms/image/v2/C4D03AQFpUdGQeEewrQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1648750365651?e=1729728000&v=beta&t=Ur5RSEewMpRqsByaBq_4EuN9znQMlhviVZN182IUVwQ",
       profile: "https://www.linkedin.com/in/mabdullahmahmood"
     },
     {
@@ -166,7 +166,7 @@ import {
       name: "Mubeen Jamal",
       designation: "Lead SWE",
       company: "Eplanet Global",
-      image: "https://media.licdn.com/dms/image/C4E03AQFKjFoBHYwP9g/profile-displayphoto-shrink_200_200/0/1597867024456?e=1709769600&v=beta&t=nlj3YMG-tUdqDK-dTt8TKWq-bCeMApJdbrB9abWhD9g",
+      image: "https://media.licdn.com/dms/image/v2/C4E03AQFKjFoBHYwP9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1597867024456?e=1729728000&v=beta&t=pGiqBAfzq9KS2byQ2hD5qncXLez-RsHEzmLhDa8BiLU",
       profile: "https://www.linkedin.com/in/mubeen-jamal"
     },
     {
@@ -175,7 +175,7 @@ import {
       name: "Jharna Samtani",
       designation: "HRBP",
       company: "Eplanet Global",
-      image: "https://media.licdn.com/dms/image/D4D03AQEiRlvausHfsw/profile-displayphoto-shrink_200_200/0/1703669180189?e=1710374400&v=beta&t=mZmyHpkFQGWCQzYnU3HKKEPZnrlPKy4Pv4NSIeE1cqY",
+      image: "https://media.licdn.com/dms/image/v2/D4D35AQFx-7svqxNw8Q/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719443067135?e=1725044400&v=beta&t=Vp3Dotwe1750Wv1otubUireWQAPnyNyOkPQqSaFR240",
       profile: "https://www.linkedin.com/in/jharna-samtani-16b000133"
     }
   ];
