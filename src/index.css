@@ -29,7 +29,8 @@
   width: 100%;
   bottom: 0;
   pointer-events: none;
-  background: linear-gradient(to bottom, transparent, rgb(9 3 37));
+  background: linear-gradient(to bottom, transparent, #0c1c309f);
+
 }
 
 .limited-text:has(+ .expand-text:checked) {

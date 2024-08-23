@@ -5,23 +5,32 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
-        secondary: "#aaa6c3",
-        tertiary: "#151030",
-        "black-100": "#100d25",
-        "black-200": "#090325",
-        "white-100": "#f3f3f3",
+        primary: "#0d1f33", // Deep Navy Blue
+        secondary: "#a0b1cc", // Slate Blue
+        tertiary: "#1c2938", // Dark Slate Blue
+        "black-100": "#0b1521", // Blackened Blue
+        "black-200": "#050a12", // Very Dark Blue
+        "white-100": "#e5e9f0", // Soft Blueish White
       },
       boxShadow: {
-        card: "0px 35px 120px -15px #211e35",
+        card: "0px 35px 120px -15px #182533", // Dark Blue Shadow
       },
       screens: {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/midnightbg.jpg')",
+        'midnight-gradient': 'linear-gradient(to right, rgba(13, 31, 51, 1), rgba(78, 145, 255, 0))',
       },
     },
   },
   plugins: [],
 };
+
+
+
+
+
+
+
+
