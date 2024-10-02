@@ -175,8 +175,8 @@ import {
       name: "Jharna Samtani",
       designation: "HRBP",
       company: "Eplanet Global",
-      image: "https://media.licdn.com/dms/image/v2/D4D35AQFx-7svqxNw8Q/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1719443067135?e=1725044400&v=beta&t=Vp3Dotwe1750Wv1otubUireWQAPnyNyOkPQqSaFR240",
-      profile: "https://www.linkedin.com/in/jharna-samtani-16b000133"
+      image: "https://media.licdn.com/dms/image/v2/D4D35AQH6piunSvkhGw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1727102998000?e=1728514800&v=beta&t=87xQfQqeYTg9yxZij56D-NECRXrBpRa6BS9Asglneno",
+      profile: "https://www.linkedin.com/in/jharna-s-16b000133/"
     }
   ];
   
