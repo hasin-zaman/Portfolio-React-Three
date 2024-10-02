@@ -1,6 +1,6 @@
 # [Portfolio](https://hasin-zaman.vercel.app)
 
-This repository contains the source code for my personal portfolio.
+This repository contains the source code for my portfolio.
 
 ## 🚀 Tech Stack
 
