@@ -1,7 +1,5 @@
 # [Portfolio](https://hasin-zaman.vercel.app)
 
-This repository contains the source code for my portfolio.
-
 ## 🚀 Tech Stack
 
 - **JavaScript**
@@ -18,3 +16,5 @@ This repository contains the source code for my portfolio.
 - **Fully Responsive**: The design is optimized for various devices, ensuring the best experience on both mobile and desktop.
 
 ## 🎥 Video Demo
+https://github.com/user-attachments/assets/bf99d46d-7e11-4049-a659-0e79796a698d
+
