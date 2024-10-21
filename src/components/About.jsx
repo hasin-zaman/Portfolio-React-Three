@@ -14,11 +14,12 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        I'm a skilled software engineer with experience in Javascript, TypeScript and
-        Dart, and expertise in frameworks like React, Express, Nest and Flutter. 
-        I'm a quick learner. I make it a habit to adopt better coding 
-        practices often. When developing, I aim to create scalable, secure 
-        and user-friendly solutions that solve real-world problems.
+        I'm a software engineer with experience in Javascript, TypeScript, Dart and
+        Java, and expertise in frameworks like Node, React, Next, Express, Nest, Spring and Flutter. 
+        I have used both SQL and NoSQL databases in my projects along with BaaS (Firebase) and Git 
+        for version controlling. I have brief experience with DevOps tools like Docker, Jenkins, Kubernetes as well.
+        These are just the tools I have already worked with. To me solving problems is what actually matters 
+        and I'm willing to work on any tool as per requirement.
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'> 
         {

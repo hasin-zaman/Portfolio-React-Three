@@ -40,19 +40,19 @@ import {
   
   const services = [
     {
-      title: "MERN Stack Developer",
+      title: "JavaScript",
       icon: web,
     },
     {
-      title: "Flutter Developer",
+      title: "TypeScript",
       icon: mobile,
     },
     {
-      title: "Next.js Developer",
+      title: "Dart",
       icon: backend,
     },
     {
-      title: "Nest.js Developer",
+      title: "Java",
       icon: creator,
     },
   ];
@@ -82,18 +82,18 @@ import {
     //   name: "Tailwind CSS",
     //   icon: tailwind,
     // },
-    // {
-    //   name: "Node JS",
-    //   icon: nodejs,
-    // },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
     // {
     //   name: "MongoDB",
     //   icon: mongodb,
     // },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "Git",
       icon: git,
@@ -116,10 +116,11 @@ import {
       iconBg: "#FFFFF7",
       date: "April 2024 - Present",
       points: [
-        "Analyzed application flows and optimized filter effectiveness for comprehensive coverage",
-        "Made adjustments based on logs to ensure application performance remained smooth without breaking",
-        "Created runtime options for enabling/disabling filters and collecting logs for enhanced flexibility and monitoring",
-        "Successfully deployed filters to production, demonstrating effective integration and impact",
+        "Improved system security for a JavaScript (React) and Java (Spring) enterprise app serving 700+ clubs globally, achieving a 30% increase in threat detection capability.",
+        "Developed and deployed 6 high-impact custom security filters, significantly lowering the number of detected vulnerabilities and improving the overall security posture.",
+        "Implemented runtime options for enabling/disabling filters and collecting logs for enhanced flexibility and monitoring",
+        "Analyzed logs and refined security filters based on insights, minimizing false positives by 17%.",
+        "Successfully deployed filters to production, demonstrating effective integration and impact.",
       ],
     },
     {
@@ -129,9 +130,9 @@ import {
       iconBg: "#FFFFF7",
       date: "February 2024 - April 2024",
       points: [
-        "Configured OWASP Dependency-Check with Ant, identifying and addressing multiple vulnerable jars",
-        "Conducted pentesting using Burp Suite and addressed OWASP Top 10 vulnerabilities",
-        "Developed 6 high-impact filters for a Spring and Struts-based enterprise app, enhancing security across the entire system",
+        "Configured OWASP Dependency-Check with Ant, identifying and addressing vulnerable jars.",
+        "Resolved multiple Mantis tickets debugging critical issues, leading to improved system reliability.",
+        "Coordinated with team on the DES to AES migration, Tomcat upgradation and Talisman configuration with the project, enhancing overall performance and development standards of the project.",
       ],
     },
     {
@@ -141,11 +142,13 @@ import {
       iconBg: "#FFFFF7",
       date: "October 2023 - February 2024",
       points: [
-        "Orchestrated the development of a Flutter-based mobile application adhering to the MVVM architecture",
-        "Collaborated seamlessly with QA testers, designers, and developers across teams",
-        "Engineered a suite of reusable components, translating over 20 intricate Figma designs into responsive screens",
-        "Consumed Rest APIs and managed state using Bloc and Cubit, optimizing efficiency",
-        "Strategically implemented Singleton and Factory patterns, streamlining project scalability and maintainability",
+        "Orchestrated the development of a Flutter-based (Android + iOS) mobile app, converting 16+ Figma designs into responsive screens.",
+        "Ensured MVVM architecture design in the project.",
+        "Collaborated with QA, UI designers and developers, contributing to improvement in project delivery speed.",
+        "Enhanced code maintainability by developing reusable components, reducing redundancy by 25%.",
+        "Ensured application's responsiveness using screen_util package.",
+        "Optimized app efficiency, managing state effectively using Bloc and Cubit and consuming RESTful APIs.",
+        "Employed design patterns such as Singleton and Factory method.",
       ],
     },
   ];
@@ -175,7 +178,7 @@ import {
       name: "Jharna Samtani",
       designation: "HRBP",
       company: "Eplanet Global",
-      image: "https://media.licdn.com/dms/image/v2/D4D35AQH6piunSvkhGw/profile-framedphoto-shrink_800_800/profile-framedphoto-shrink_800_800/0/1727102998000?e=1728514800&v=beta&t=87xQfQqeYTg9yxZij56D-NECRXrBpRa6BS9Asglneno",
+      image: "https://media.licdn.com/dms/image/v2/D4D35AQH6piunSvkhGw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1727102998000?e=1730077200&v=beta&t=MurWCEwZLSf_JP-m1TQBDbO53gDsaTXyBImXHvlktyM",
       profile: "https://www.linkedin.com/in/jharna-s-16b000133/"
     }
   ];
